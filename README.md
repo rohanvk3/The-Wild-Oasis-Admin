@@ -1,3 +1,133 @@
+🏨 The Wild Oasis — Admin Dashboard
+
+The Wild Oasis is an internal hotel management system designed for administrators and hotel staff.
+It allows employees to manage cabins, bookings, guests, and view real-time business insights through an intuitive dashboard.
+
+This application is not customer-facing and is intended strictly for internal operations.
+
+🚀 Live Demo
+
+🔗 Deployed on Vercel: (add your live URL here)
+
+✨ Key Features
+🔐 Authentication & Access Control
+
+Secure authentication using Supabase
+
+Only authorized hotel staff can access the application
+
+Protected routes to prevent unauthorized access
+
+👤 Employee Profile Management
+
+Update personal profile details
+
+Upload and update avatar images
+
+Change passwords securely
+
+📊 Admin Dashboard
+
+Overview of recent bookings and check-ins
+
+Revenue and sales statistics
+
+Occupancy insights for quick decision-making
+
+🏡 Cabin Management
+
+Create, update, and delete cabin records
+
+Manage capacity, pricing, and discounts
+
+Upload and manage cabin images
+
+📅 Booking Management
+
+View all bookings in one place
+
+Check guests in and out
+
+Update booking and payment statuses
+
+⚡ Real-Time Updates
+
+Live updates for cabins and bookings
+
+Powered by Supabase real-time subscriptions
+
+📈 Analytics & Data Visualization
+
+Interactive charts for:
+
+Sales trends
+
+Booking activity
+
+Occupancy rates
+
+🌙 Dark Mode
+
+Fully functional dark mode
+
+System-wide theme switching for better accessibility
+
+🛠 Tech Stack
+Frontend
+
+React
+
+React Router
+
+React Query (TanStack Query)
+
+React Hook Form
+
+Styled Components
+
+Recharts
+
+Backend & Services
+
+Supabase
+
+Authentication
+
+PostgreSQL Database
+
+Real-time subscriptions
+
+File storage (avatars & cabin images)
+
+Tooling & Deployment
+
+Vite
+
+Vercel
+
+⚙️ Setup & Installation
+1️⃣ Clone the Repository
+git clone https://github.com/rohanvk3/The-Wild-Oasis-Admin.git
+cd The-Wild-Oasis-Admin
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Environment Variables
+
+Create a .env file in the root directory:
+
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+
+4️⃣ Run the App Locally
+npm run dev
+
+
+Open http://localhost:5173
+ in your browser.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
