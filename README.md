@@ -85,18 +85,11 @@ cd The-Wild-Oasis-Admin
 
 npm install
 
+Create a .env file in the root directory and add the following:
+
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 npm run dev
 
 Open http://localhost:5173 in your browser.
-
-React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-@vitejs/plugin-react uses Babel for Fast Refresh
-
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
