@@ -1,98 +1,102 @@
-🏨 The Wild Oasis — Admin Dashboard
+# 🏨 The Wild Oasis — Admin Dashboard
+
 The Wild Oasis is an internal hotel management system designed for administrators and hotel staff. It allows employees to manage cabins, bookings, guests, and view real-time business insights through an intuitive dashboard.
 
-Note: This application is not customer-facing and is intended strictly for internal operations.
+## 🚀 Live Demo
 
-🚀 Live Demo
-🔗 Deployed on Vercel: [Add your live URL here]
+🔗 **Deployed on Vercel:** [https://the-wild-oasis-rohan.vercel.app/]
 
-✨ Key Features
-🔐 Authentication & Access Control
-Secure Authentication: Powered by Supabase Auth.
+---
 
-Role-Based Access: Strictly for authorized hotel staff.
+## ✨ Key Features
 
-Protected Routes: Prevents unauthorized access to sensitive data.
+### 🔐 Authentication & Access Control
+- **Secure Authentication:** Powered by Supabase.
+- **Role-Based Access:** Only authorized hotel staff can access the application.
+- **Protected Routes:** Prevents unauthorized access to sensitive pages.
 
-👤 Employee Profile Management
-Update personal details and password securely.
+### 👤 Employee Profile Management
+- Update personal profile details.
+- Upload and update avatar images.
+- Change passwords securely.
 
-Upload and manage avatar images.
+### 📊 Admin Dashboard
+- **Overview:** View recent bookings and check-ins.
+- **Stats:** Revenue and sales statistics.
+- **Insights:** Occupancy data for quick decision-making.
 
-📊 Admin Dashboard
-Real-time Overview: Instant view of recent bookings and check-ins.
+### 🏡 Cabin Management
+- Create, update, and delete cabin records.
+- Manage capacity, pricing, and discounts.
+- Upload and manage cabin images.
 
-Financial Insights: Track revenue and sales statistics.
+### 📅 Booking Management
+- View all bookings in one place.
+- Check guests in and out.
+- Update booking and payment statuses.
 
-Occupancy Data: Visual metrics for quick decision-making.
+### ⚡ Real-Time Updates
+- Live updates for cabins and bookings.
+- Powered by Supabase real-time subscriptions.
 
-🏡 Cabin Management
-CRUD Operations: Create, update, and delete cabin records.
+### 📈 Analytics & Data Visualization
+- **Interactive charts:**
+  - Sales trends
+  - Booking activity
+  - Occupancy rates
 
-Inventory Control: Manage capacity, pricing, and discounts.
+### 🌙 Dark Mode
+- Fully functional dark mode.
+- System-wide theme switching for better accessibility.
 
-Visuals: Upload and host cabin images via Supabase Storage.
+---
 
-📅 Booking Management
-Centralized View: See all bookings in a unified table.
+## 🛠 Tech Stack
 
-Check-in/Check-out: Streamlined guest processing.
+### Frontend
+- **React**
+- **React Router**
+- **React Query (TanStack Query)**
+- **React Hook Form**
+- **Styled Components**
+- **Recharts**
 
-Status Updates: Modify booking and payment statuses instantly.
+### Backend & Services
+- **Supabase**
+- **Authentication**
+- **PostgreSQL Database**
+- **Real-time subscriptions**
+- **File storage (avatars & cabin images)**
 
-⚡ Real-Time & Analytics
-Live Updates: Immediate synchronization for cabins and bookings using Supabase Realtime.
+### Tooling & Deployment
+- **Vite**
+- **Vercel**
 
-Data Visualization: Interactive charts powered by Recharts for sales trends and occupancy rates.
+---
 
-🌙 Dark Mode
-System-wide theme switching for better accessibility and user comfort.
+## ⚙️ Setup & Installation
 
-🛠 Tech Stack
-Frontend
-Core: React, React Router
+Follow these steps to run the project locally.
 
-State Management: React Query (TanStack Query)
-
-Forms: React Hook Form
-
-Styling: Styled Components
-
-Visualization: Recharts
-
-Backend & Services (Supabase)
-Database: PostgreSQL
-
-Auth: Secure user authentication
-
-Storage: Image hosting for avatars and cabins
-
-Real-time: Live data subscriptions
-
-Tooling
-Build Tool: Vite
-
-Deployment: Vercel
-
-⚙️ Setup & Installation
-Follow these steps to set up the project locally.
-
-1️⃣ Clone the Repository
-Bash
-git clone https://github.com/rohanvk3/The-Wild-Oasis-Admin.git
+### 1️⃣ Clone the Repository
+```bash
+git clone [https://github.com/rohanvk3/The-Wild-Oasis-Admin.git](https://github.com/rohanvk3/The-Wild-Oasis-Admin.git)
 cd The-Wild-Oasis-Admin
-2️⃣ Install Dependencies
-Bash
-npm install
-3️⃣ Environment Variables
-Create a .env file in the root directory and add your Supabase credentials:
 
-Code snippet
+npm install
+
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-4️⃣ Run the App Locally
-Start the development server:
 
-Bash
 npm run dev
-Open http://localhost:5173 in your browser to view the app.
+
+Open http://localhost:5173 in your browser.
+
+React + Vite
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+@vitejs/plugin-react uses Babel for Fast Refresh
+
+@vitejs/plugin-react-swc uses SWC for Fast Refresh
